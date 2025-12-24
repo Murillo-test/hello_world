@@ -5,3 +5,6 @@ palavra = input()
 
 print(f"{palavra}{palavra}{palavra}{palavra}{palavra}")
 
+# ou podemos utilizar da seguinte forma
+
+print(f"{palavra*5}")
