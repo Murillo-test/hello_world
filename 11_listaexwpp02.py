@@ -80,3 +80,33 @@
 #print(f"Menor nota: {notas[0]}")
 #media = float((notas[0]+notas[1]+notas[2]+notas[3])/4)
 #print(f"Média: {media:.1f}")
+
+# EX 2 ALTERNATIVO
+
+#end = input("Por favor, insira a rua, número e a cidade: ").split(", ")
+#print(f"Endereço: Rua {end[0]}, {end[1]} - {end[2]}")
+
+# EX 12 CORRETO
+
+notas = [5.5, 8.0, 9.5, 7.0]
+maior_nota = max(notas)  # max seleciona o maior item da lista
+menor_nota = min(notas)  # min seleciona o menor item da lista
+
+print(maior_nota)
+
+# OU, podemos ordenar a lista com o comando .sort()
+
+notas.sort()
+maior_nota2 = notas[-1]
+print(maior_nota2)
+
+# Para fazer a média, podemos somar todos os itens
+# da lista usando "sum".
+# Depois, basta dividir pela quantidade de itens
+# da lista. O sistema sabe o número de itens na
+# lista com o comando "len" de "lenght".
+# Esse comando captura o número de itens na lista.
+
+qtd_notas = len(notas)
+media = (sum(notas)/qtd_notas)
+print(f"Média: {media}")
