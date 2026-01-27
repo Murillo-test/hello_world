@@ -11,4 +11,11 @@ y2 = float(y[1])
 
 distance = (((x2 - x1)**2)+((y2-y1)**2))**0.5
 
+# 1021
 
+valor = float(input())
+total = int(round(valor*100))
+
+qtd = total // (100*100)
+print("NOTAS:")
+print(f"")
