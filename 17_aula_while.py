@@ -29,4 +29,4 @@
 # chute = float(input("Adivinhe o número (entre 1 e 10):\n"))
 # while chute != nmr_scrt:
 #     chute = float(input("Você errou! Adivinhe o número (entre 1 e 10):\n"))
-# print("Parabéns! Você acertou o número secreto.")
+# print("Parabéns! Você acertou o número secreto.") 

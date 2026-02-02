@@ -52,4 +52,6 @@
 # else:
 #     print("Valor Inválido!")
 
+# 4 Vogal ou Consoante
 
+input("Digite uma letra:\n")
